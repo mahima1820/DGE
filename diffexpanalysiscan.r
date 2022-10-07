@@ -31,6 +31,7 @@ View(mat)
 
 
 
+
 mat=as.data.frame(mat)
 num=which(is.nan(mat$pvalue))
 mat[num,'pvalue']=1
@@ -40,4 +41,6 @@ mat[num,'pvalue']=1
 #BiocManager::install("EnhancedVolcano")
 library(EnhancedVolcano)
 EnhancedVolcano(mat,lab = rownames(mat),x = 'log2FC' ,y ='pvalue')
+
+
 
