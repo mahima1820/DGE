@@ -5,5 +5,6 @@ using th for loop and plotted the volcano plot to see that the genes in our samp
 
 
 
-[New Microsoft Word Document.docx](https://github.com/mahima1820/DGE/files/9734594/New.Microsoft.Word.Document.docx)
+![plot_DEG_png](https://user-images.githubusercontent.com/110675838/198819347-f81150f9-cd06-487d-b279-919e7b3a9d48.png)
+
 
